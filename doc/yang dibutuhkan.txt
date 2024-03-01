@@ -1,0 +1,48 @@
+#. logo yuri
+#. Sejarah yuri komputer
+#. Program-program yuri komputer...
+	=> 3 bulan
+		=> Penjelasan
+		=> Jadwal Masuk
+		=> Silabus Pembelajaran
+		=> Biaya
+		=> Dan lain nya yang di anggap perlu/penting
+	=> 6 Bulan
+		=> Penjelasan
+		=> Jadwal Masuk
+		=> Silabus Pembelajaran
+		=> Biaya
+		=> Dan lain nya yang di anggap perlu/penting
+	=> Program Gratis
+		=> Penjelasan
+		=> Dan lain nya yang di anggap perlu/penting
+	=> PKK
+		=> Penjelasan
+		=> Dan lain nya yang di anggap perlu/penting
+#. Penjelasan Tentang Akreditasi Lembaga.
+#. Daftar Penanggung Jawab, Instruktur dan perangkat lain yuri komputer...
+	=> Nama 
+	=> Tempat Tanggal Lahir
+	=> Jenis kelamin
+	=> No hp
+	=> Foto
+	=> Alamat
+	=> Nama Akun Facebook
+	=> Nama Akun Instagram
+	=> Nama Akun Twitter (Jika Ada)
+
+#. Struktur Organisasi Yuri Komputer
+#. Daftar Siswa Yuri Kom
+
+#. Dan Lain nya yang di anggap Penting/perlu (Optional)
+#. kontak
+	=> Alamat Lengkap Lembaga
+	=> Jadwal Open Informasi
+		=> Jam
+		=> Hari
+	=> Email Lembaga
+	=> No Telp Lembaga
+	=> Sosial Media (Jika ada)
+#. Daftar Alumni Yuri Kom
+#. Daftar Alumni yang berkerja beserta pekerjaannya.
+#. Pendapat Alumni Tentang Yuri Komputer
