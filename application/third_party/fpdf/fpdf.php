@@ -271,6 +271,7 @@ function Error($msg)
 	throw new Exception('FPDF error: '.$msg);
 }
 
+#[\ReturnTypeWillChange]
 function Close()
 {
 	// Terminate document

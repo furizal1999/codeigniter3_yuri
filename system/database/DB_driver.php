@@ -50,6 +50,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
  * @author		EllisLab Dev Team
  * @link		https://codeigniter.com/user_guide/database/
  */
+#[AllowDynamicProperties]
 abstract class CI_DB_driver {
 
 	/**
@@ -1699,6 +1700,7 @@ abstract class CI_DB_driver {
 	 *
 	 * @return	void
 	 */
+	#[\ReturnTypeWillChange]
 	public function close()
 	{
 		if ($this->conn_id)

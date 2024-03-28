@@ -642,6 +642,7 @@ class CI_FTP {
 	 *
 	 * @return	bool
 	 */
+	#[\ReturnTypeWillChange]
 	public function close()
 	{
 		return $this->_is_conn()

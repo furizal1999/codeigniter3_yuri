@@ -558,6 +558,7 @@ class CI_Cart {
 	 *
 	 * @return	void
 	 */
+	#[\ReturnTypeWillChange]
 	public function destroy()
 	{
 		$this->_cart_contents = array('cart_total' => 0, 'total_items' => 0);

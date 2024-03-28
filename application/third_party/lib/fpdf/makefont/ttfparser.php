@@ -260,6 +260,7 @@ class TTFParser
 		fseek($this->f, $n, SEEK_CUR);
 	}
 
+	#[\ReturnTypeWillChange]
 	function Read($n)
 	{
 		return fread($this->f, $n);

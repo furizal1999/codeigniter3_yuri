@@ -44,6 +44,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
  * @author		EllisLab Dev Team
  * @link		https://codeigniter.com/user_guide/database/
  */
+#[AllowDynamicProperties]
 class CI_DB_Cache {
 
 	/**
@@ -137,6 +138,7 @@ class CI_DB_Cache {
 	 * @param	string	$sql
 	 * @return	string
 	 */
+	#[\ReturnTypeWillChange]
 	public function read($sql)
 	{
 		$segment_one = ($this->CI->uri->segment(1) == FALSE) ? 'default' : $this->CI->uri->segment(1);
@@ -160,6 +162,7 @@ class CI_DB_Cache {
 	 * @param	object	$object
 	 * @return	bool
 	 */
+	#[\ReturnTypeWillChange]
 	public function write($sql, $object)
 	{
 		$segment_one = ($this->CI->uri->segment(1) == FALSE) ? 'default' : $this->CI->uri->segment(1);

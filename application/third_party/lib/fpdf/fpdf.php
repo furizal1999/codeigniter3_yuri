@@ -271,6 +271,7 @@ function Error($msg)
 	throw new Exception('FPDF error: '.$msg);
 }
 
+#[\ReturnTypeWillChange]
 function Close()
 {
 	// Terminate document
@@ -768,6 +769,7 @@ function MultiCell($w, $h, $txt, $border=0, $align='J', $fill=false)
 	$this->x = $this->lMargin;
 }
 
+#[\ReturnTypeWillChange]
 function Write($h, $txt, $link='')
 {
 	// Output text in flowing mode
